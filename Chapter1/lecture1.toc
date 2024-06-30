@@ -5,6 +5,9 @@
 \beamer@subsectionintoc {2}{3}{Environment Setup NPM}{7}{0}{2}
 \beamer@subsectionintoc {2}{4}{Environment Setup Next JS}{8}{0}{2}
 \beamer@subsectionintoc {2}{5}{Environment Setup Next JS Options}{9}{0}{2}
-\beamer@sectionintoc {3}{Page TSX Basic Example}{10}{0}{3}
-\beamer@subsectionintoc {3}{1}{page.tsx}{10}{0}{3}
-\beamer@subsectionintoc {3}{2}{Page TSX Basic Example Code}{11}{0}{3}
+\beamer@subsectionintoc {2}{6}{Environment Setup Next JS Options}{10}{0}{2}
+\beamer@sectionintoc {3}{Live Reloading}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Live Reloading}{11}{0}{3}
+\beamer@sectionintoc {4}{Page TSX Basic Example}{12}{0}{4}
+\beamer@subsectionintoc {4}{1}{page.tsx}{12}{0}{4}
+\beamer@subsectionintoc {4}{2}{Page TSX Basic Example Code}{13}{0}{4}

@@ -30,19 +30,30 @@
 \headcommand {\beamer@subsectionentry {0}{2}{5}{9}{Environment Setup Next JS Options}}
 \headcommand {\slideentry {2}{5}{1}{9/9}{Environment Setup Next JS Options}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@sectionpages {5}{9}}
 \headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\sectionentry {3}{Page TSX Basic Example}{10}{Page TSX Basic Example}{0}}
-\headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{10}{page.tsx}}
-\headcommand {\slideentry {3}{1}{1}{10/10}{page.tsx}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{10}{Environment Setup Next JS Options}}
+\headcommand {\slideentry {2}{6}{1}{10/10}{Environment Setup Next JS Options}{0}}
 \headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@sectionpages {5}{10}}
 \headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{11}{Page TSX Basic Example Code}}
-\headcommand {\slideentry {3}{2}{0}{11/11}{page.tsx}{0}}
+\headcommand {\sectionentry {3}{Live Reloading}{11}{Live Reloading}{0}}
+\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{11}{Live Reloading}}
+\headcommand {\slideentry {3}{1}{1}{11/11}{Live Reloading}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {10}{11}}
-\headcommand {\beamer@sectionpages {10}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\gdef \inserttotalframenumber {10}}
+\headcommand {\beamer@sectionpages {11}{11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\sectionentry {4}{Page TSX Basic Example}{12}{Page TSX Basic Example}{0}}
+\headcommand {\beamer@subsectionpages {12}{11}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{12}{page.tsx}}
+\headcommand {\slideentry {4}{1}{1}{12/12}{page.tsx}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{13}{Page TSX Basic Example Code}}
+\headcommand {\slideentry {4}{2}{0}{13/13}{page.tsx}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@partpages {1}{13}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\beamer@sectionpages {12}{13}}
+\headcommand {\beamer@documentpages {13}}
+\headcommand {\gdef \inserttotalframenumber {12}}
