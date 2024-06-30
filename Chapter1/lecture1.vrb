@@ -1,0 +1,14 @@
+\subsection{Page TSX Basic Example Code}
+\frametitle{Page TSX Basic Example Code}
+\begin{lstlisting}
+import Image from "next/image";
+import styles from "./page.module.css";
+
+export default function Home() {
+  return (
+    <main className={styles.main}>
+        Test
+    </main>
+  );
+}
+\end{lstlisting}

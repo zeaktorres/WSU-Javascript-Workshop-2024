@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Before getting started}{3}{0}{1}
+\beamer@sectionintoc {2}{Environment Setup}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Environment Setup NVM}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Environment Setup IDE}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{Environment Setup NPM}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{Environment Setup Next JS}{8}{0}{2}
+\beamer@subsectionintoc {2}{5}{Environment Setup Next JS Options}{9}{0}{2}
+\beamer@sectionintoc {3}{Page TSX Basic Example}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{page.tsx}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Page TSX Basic Example Code}{11}{0}{3}

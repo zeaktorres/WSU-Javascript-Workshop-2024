@@ -1,0 +1,93 @@
+\documentclass{beamer}
+\usepackage{listings}
+\begin{document}
+\title{Javascript Chapter 1}
+\author{Ezequiel Torres}
+\date{\today}
+\frame{\titlepage}
+\frame{\frametitle{Table of contents}\tableofcontents}
+
+\section{Before getting started}
+\frame{\frametitle{Before getting started}
+    We will be going over the basics of Javascript and developiong in React in this course.
+    Here are some great resources to get started.
+    \begin{itemize}
+        \item<1-> \href{https://react.dev/learn}react.dev
+            \begin{itemize}
+                \item<2-> React's development website 
+            \end{itemize}
+    \end{itemize}
+}
+
+\section{Environment Setup}
+\subsection{Environment Setup NVM}
+\frame{\frametitle{Environment setup NVM}
+    Here are the basic steps to running python. 
+    \vspace{\baselineskip}
+
+    On a Windows PC, you will need NVM to download React: \href{https://github.com/coreybutler/nvm-windows}NVM Windows
+    \vspace{\baselineskip}
+
+    On Linux, you will run the following command `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`  
+    Then, `source ~/.bashrc` if shell is bash (use `which \$SHELL`) to see which shell you have 
+    \vspace{\baselineskip}
+}
+
+\subsection{Environment Setup IDE}
+\frame{\frametitle{IDE}
+    \begin{enumerate}
+        \item<1-> VSCode, a very popular text editor in electron. Great for industry practice
+        \item<1-> Neovim/Vim, I personally use Neovim because I hate myself
+    \end{enumerate}
+}
+
+\subsection{Environment Setup NPM}
+\frame{\frametitle{Environment Setup NVM}
+    Once you have NVM, you can run `nvm install 20` in the terminal to install node, which will allow you to install Next JS
+}
+
+\subsection{Environment Setup Next JS}
+\frame{\frametitle{Environment Setup Next JS}
+    Now that we have node, it runs Javascript in the terminal, now we can grab a React framework. We will go with Next JS, which has a 
+    javascript backend and frontend. 
+    \vspace{\baselineskip}
+
+    Run the command `npx create-next-app@latest` and use the next slides options
+}
+
+\subsection{Environment Setup Next JS Options} 
+\frame{\frametitle{Environment Setup Next Options}
+     What is your project named? … wsu-example-project
+     Would you like to use TypeScript? … No / Yes
+     Would you like to use ESLint? … No / Yes
+     Would you like to use Tailwind CSS? … No / Yes
+     Would you like to use `src/` directory? … No / Yes
+     Would you like to use App Router? (recommended) … No / Yes
+     Would you like to customize the default import alias (@/*)? … No / Yes
+    Creating a new Next.js app in /home/zeak/WSU-Javascript-Workshop-2024/wsu-example-project.
+}
+
+\section{Page TSX Basic Example}
+\subsection{page.tsx}
+\frame{\frametitle{page.tsx}
+    Remove all of src/app/page.tsx until it is a blank component like the following slide
+}
+
+\begin{frame}[fragile]
+\subsection{Page TSX Basic Example Code}
+\frametitle{Page TSX Basic Example Code}
+\begin{lstlisting}
+import Image from "next/image";
+import styles from "./page.module.css";
+
+export default function Home() {
+  return (
+    <main className={styles.main}>
+        Test
+    </main>
+  );
+}
+\end{lstlisting}
+\end{frame}
+
+\end{document}
