@@ -12,4 +12,5 @@ export default function Home() {
     <img className="avatar" src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"/>
   </>
  );
-}\end{lstlisting}
+}
+\end{lstlisting}

@@ -1,12 +1,10 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
-
-
-export default function Home() {
+export default function Home(){
   return (
-    <main className={styles.main}>
-        Welcome to Zeak's page!
-    </main>
+    <>
+        <img src=
+        "https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg" alt="dog"/>
+    </>
   );
 }

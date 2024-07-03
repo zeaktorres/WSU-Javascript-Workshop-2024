@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  1 JUL 2024 08:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  2 JUL 2024 21:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,8 +897,8 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              for symbol `textless' on input line 6.
 
 
-Overfull \hbox (336.57683pt too wide) in paragraph at lines 7--8
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (277.44621pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 ) [4
@@ -921,6 +921,8 @@ Overfull \hbox (461.40813pt too wide) in paragraph at lines 12--13
 
 ) [6
 
+] [7
+
 ]
 \tf@nav=\write6
 \openout6 = `lecture3.nav'.
@@ -941,13 +943,13 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `lecture3.out' has not changed.
-(rerunfilecheck)             Checksum: 58C92E1DF5311A1282EA79F9A1A73012;627.
+(rerunfilecheck)             Checksum: 82DBF6DE2D1D98EEC807AD91076BA7F7;743.
  ) 
 Here is how much of TeX's memory you used:
- 22712 strings out of 476182
- 424303 string characters out of 5795595
+ 22721 strings out of 476182
+ 424382 string characters out of 5795595
  1944975 words of memory out of 5000000
- 44280 multiletter control sequences out of 15000+600000
+ 44286 multiletter control sequences out of 15000+600000
  560842 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,14n,107p,404b,1332s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -956,10 +958,10 @@ k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on lecture3.pdf (6 pages, 54503 bytes).
+Output written on lecture3.pdf (7 pages, 56192 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
