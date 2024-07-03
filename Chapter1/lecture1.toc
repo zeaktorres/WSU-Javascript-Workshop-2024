@@ -1,13 +1,14 @@
 \beamer@sectionintoc {1}{Before getting started}{3}{0}{1}
-\beamer@sectionintoc {2}{Environment Setup}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{Environment Setup NVM}{5}{0}{2}
-\beamer@subsectionintoc {2}{2}{Environment Setup IDE}{6}{0}{2}
-\beamer@subsectionintoc {2}{3}{Environment Setup NPM}{7}{0}{2}
-\beamer@subsectionintoc {2}{4}{Environment Setup Next JS}{8}{0}{2}
-\beamer@subsectionintoc {2}{5}{Environment Setup Next JS Options}{9}{0}{2}
-\beamer@subsectionintoc {2}{6}{Environment Setup Next JS Options}{10}{0}{2}
-\beamer@sectionintoc {3}{Live Reloading}{11}{0}{3}
-\beamer@subsectionintoc {3}{1}{Live Reloading}{11}{0}{3}
-\beamer@sectionintoc {4}{Page TSX Basic Example}{12}{0}{4}
-\beamer@subsectionintoc {4}{1}{page.tsx}{12}{0}{4}
-\beamer@subsectionintoc {4}{2}{Page TSX Basic Example Code}{13}{0}{4}
+\beamer@subsectionintoc {1}{1}{Class Project}{6}{0}{1}
+\beamer@sectionintoc {2}{Environment Setup}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Environment Setup NVM}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Environment Setup IDE}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Environment Setup NPM}{9}{0}{2}
+\beamer@subsectionintoc {2}{4}{Environment Setup Next JS}{10}{0}{2}
+\beamer@subsectionintoc {2}{5}{Environment Setup Next JS Options}{11}{0}{2}
+\beamer@subsectionintoc {2}{6}{Environment Setup Next JS Options}{12}{0}{2}
+\beamer@sectionintoc {3}{Live Reloading}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{Live Reloading}{13}{0}{3}
+\beamer@sectionintoc {4}{Page TSX Basic Example}{14}{0}{4}
+\beamer@subsectionintoc {4}{1}{page.tsx}{14}{0}{4}
+\beamer@subsectionintoc {4}{2}{Page TSX Basic Example Code}{15}{0}{4}

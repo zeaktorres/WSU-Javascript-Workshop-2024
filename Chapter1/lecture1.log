@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  30 JUN 2024 13:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  1 JUL 2024 09:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -874,12 +874,12 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -888,28 +888,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [4
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-35.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [5
+] [5
 
 ] [6
 
-] [7
+]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+39.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+) [7
 
 ] [8
 
-]
-[9
+] [9
 
 ] [10
 
-] [11
+]
+[11
 
 ] [12
+
+] [13
+
+] [14
 
 ]
 \openout4 = `lecture1.vrb'.
@@ -932,7 +936,7 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textless' on input line 9.
 
-) [13
+) [15
 
 ]
 \tf@nav=\write6
@@ -954,14 +958,14 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `lecture1.out' has not changed.
-(rerunfilecheck)             Checksum: CBDB8BE0BD83478586735B0E5AB5E2F3;2170.
+(rerunfilecheck)             Checksum: 54ECE09A267440C1D21AF1E2249CD539;2298.
  ) 
 Here is how much of TeX's memory you used:
- 22912 strings out of 476182
- 428081 string characters out of 5795595
+ 22879 strings out of 476182
+ 427149 string characters out of 5795595
  1940975 words of memory out of 5000000
- 44439 multiletter control sequences out of 15000+600000
- 568694 words of font info for 75 fonts, out of 8000000 for 9000
+ 44403 multiletter control sequences out of 15000+600000
+ 565032 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,14n,107p,404b,1306s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/zeak/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600p
@@ -970,10 +974,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on lecture1.pdf (13 pages, 77310 bytes).
+Output written on lecture1.pdf (15 pages, 80875 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 423 compressed objects within 5 object streams
- 40 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 482 compressed objects within 5 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

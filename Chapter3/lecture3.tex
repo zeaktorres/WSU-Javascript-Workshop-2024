@@ -1,29 +1,17 @@
 \documentclass{beamer}
 \usepackage{listings}
 \begin{document}
-\title{Javascript Chapter 2: Components}
+\title{Javascript Chapter 3: Styles and CSS}
 \author{Ezequiel Torres}
 \date{\today}
 \frame{\titlepage}
 \frame{\frametitle{Table of contents}\tableofcontents}
 
-\section{Components}
-\frame{\frametitle{Components Example}
-    Components are the bread and butter of React. The way you build any part of the website is in a component. They have
-    their own logic and appearance.
+\section{Basics of Styles}
+\frame{\frametitle{Basics of Styles}
+    Now we have a button and a style, but no way to format it. When wanting to move the elements around the page, we can use a
+    style sheet!
 }
-
-\begin{frame}[fragile]
-\subsection{My Button Component}
-\frametitle{My Button Component}
-\begin{lstlisting}
-function MyButton() {
-  return (
-      <button>{"I'm a button"}</button>
-  );
-}
-\end{lstlisting}
-\end{frame}
 
 \begin{frame}[fragile]
 \subsection{My Button Component Home}
@@ -32,40 +20,32 @@ function MyButton() {
 export default function Home() {
   return (
   <>
-    <MyButton/>
+    <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"/>
   </>
  );
 }\end{lstlisting}
 \end{frame}
 
-\section{HTML vs JSX}
-\frame{\frametitle{HTML vs JSX}
-    HTML tags use lowercase button, whereas JSX tags use uppercase MyButton. For a 
-    list of html tags checkout \href{w3schools}w3schools
-}
-
-\section{Header HTML Tag}
-\frame{\frametitle{Header HTML Tag}
-    Headers are important for SEOs (\href{https://www.youtube.com/watch?v=MYE6T_gd7H0}Search Engine Optimization, 5 Min SEO YT)
+\section{Basics of Classnames}
+\frame{\frametitle{Basics of Classnames}
+    We can add a classname to our HTML tag to add a stylesheet to it    
 }
 
 \begin{frame}[fragile]
-\subsection{Header HTML Tag Example}
-\frametitle{Header HTML Tag Example}
+\subsection{My Button Stylesheet}
+\frametitle{My Button Stylesheet}
 \begin{lstlisting}
-export default function Home() {
-    return (
-        <>
-            <h1>Welcome to Zeak's Page!</h1>
-            <MyButton/>
-        </>
-    );
+/* In your CSS */
+.avatar {
+  border-radius: 50%;
 }
-\end{lstlisting}
+
+export default function Home() {
+  return (
+  <>
+    <img className="avatar" src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"/>
+  </>
+ );
+}\end{lstlisting}
 \end{frame}
 \end{document}
-
-\frame{\frametitle{Component Exercise}
-    Attempt to create a new component called MyHeader, which contains a header instead of the button.
-}
-

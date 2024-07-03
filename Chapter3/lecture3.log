@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  30 JUN 2024 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  1 JUL 2024 08:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lecture2.tex
-(./lecture2.tex
+**lecture3.tex
+(./lecture3.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -711,8 +711,8 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 \l__pdf_internal_box=\box78
 )
-(./lecture2.aux)
-\openout1 = `lecture2.aux'.
+(./lecture3.aux)
+\openout1 = `lecture3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -791,9 +791,9 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 3.
 
-(./lecture2.out) (./lecture2.out)
+(./lecture3.out) (./lecture3.out)
 \@outlinefile=\write5
-\openout5 = `lecture2.out'.
+\openout5 = `lecture3.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 3.
@@ -863,22 +863,22 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count351
- (./lecture2.nav)
+ (./lecture3.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 5.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./lecture2.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./lecture3.toc)
 [2
 
 ] [3
 
 ]
-\openout4 = `lecture2.vrb'.
+\openout4 = `lecture3.vrb'.
 
- (./lecture2.vrb
+ (./lecture3.vrb
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
 4.
 LaTeX Font Info:    No file OMScmss.fd. on input line 4.
@@ -896,35 +896,42 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textless' on input line 6.
 
+
+Overfull \hbox (336.57683pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
 ) [4
 
-]
-\openout4 = `lecture2.vrb'.
-
- (./lecture2.vrb) [5
-
-] [6
-
-] [7
+] [5
 
 ]
-\openout4 = `lecture2.vrb'.
+\openout4 = `lecture3.vrb'.
 
- (./lecture2.vrb) [8
+ (./lecture3.vrb
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+4.
 
-] [9
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Overfull \hbox (461.40813pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [6
 
 ]
 \tf@nav=\write6
-\openout6 = `lecture2.nav'.
+\openout6 = `lecture3.nav'.
 
 \tf@toc=\write7
-\openout7 = `lecture2.toc'.
+\openout7 = `lecture3.toc'.
 
 \tf@snm=\write8
-\openout8 = `lecture2.snm'.
+\openout8 = `lecture3.snm'.
 
- (./lecture2.aux)
+ (./lecture3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -933,25 +940,26 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `lecture2.out' has not changed.
-(rerunfilecheck)             Checksum: 326A2FA48C8B6345C90C6CACB4F53A8B;846.
+Package rerunfilecheck Info: File `lecture3.out' has not changed.
+(rerunfilecheck)             Checksum: 58C92E1DF5311A1282EA79F9A1A73012;627.
  ) 
 Here is how much of TeX's memory you used:
- 22710 strings out of 476182
- 423686 string characters out of 5795595
- 1937975 words of memory out of 5000000
- 44272 multiletter control sequences out of 15000+600000
- 560497 words of font info for 44 fonts, out of 8000000 for 9000
+ 22712 strings out of 476182
+ 424303 string characters out of 5795595
+ 1944975 words of memory out of 5000000
+ 44280 multiletter control sequences out of 15000+600000
+ 560842 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,14n,107p,404b,1332s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+ </home/zeak/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on lecture2.pdf (9 pages, 58385 bytes).
+Output written on lecture3.pdf (6 pages, 54503 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 277 compressed objects within 3 object streams
- 25 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 

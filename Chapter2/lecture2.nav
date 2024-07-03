@@ -29,8 +29,10 @@
 \headcommand {\beamer@subsectionentry {0}{3}{1}{8}{Header HTML Tag Example}}
 \headcommand {\slideentry {3}{1}{0}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@partpages {1}{8}}
-\headcommand {\beamer@subsectionpages {7}{8}}
-\headcommand {\beamer@sectionpages {7}{8}}
-\headcommand {\beamer@documentpages {8}}
-\headcommand {\gdef \inserttotalframenumber {8}}
+\headcommand {\slideentry {3}{1}{1}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@partpages {1}{9}}
+\headcommand {\beamer@subsectionpages {7}{9}}
+\headcommand {\beamer@sectionpages {7}{9}}
+\headcommand {\beamer@documentpages {9}}
+\headcommand {\gdef \inserttotalframenumber {9}}
