@@ -1,5 +1,4 @@
 \beamer@sectionintoc {1}{Basics of Styles}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{My Button Component Home}{4}{0}{1}
-\beamer@sectionintoc {2}{Basics of Classnames}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{My Button Stylesheet}{6}{0}{2}
-\beamer@sectionintoc {3}{CSS Properties}{7}{0}{3}
+\beamer@sectionintoc {2}{Basics of Classnames}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{My Button Component Home}{5}{0}{2}
+\beamer@sectionintoc {3}{CSS Properties}{6}{0}{3}

@@ -9,24 +9,10 @@
 
 \section{Basics of Styles}
 \frame{\frametitle{Basics of Styles}
-    Now we have a button and a style, but no way to format it. When wanting to move the elements around the page, we can use a
+    Now we have a button, but no way to format it. When wanting to move the elements around the page, we can use a
     style sheet!
 }
 
-\begin{frame}[fragile]
-\subsection{My Button Component Home}
-\frametitle{My Button Component Home}
-\begin{lstlisting}
-export default function Home() {
-  return (
-  <>
-    <img src=
-    "https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"/>
-  </>
- );
-}
-\end{lstlisting}
-\end{frame}
 
 \section{Basics of Classnames}
 \frame{\frametitle{Basics of Classnames}
@@ -34,21 +20,19 @@ export default function Home() {
 }
 
 \begin{frame}[fragile]
-\subsection{My Button Stylesheet}
-\frametitle{My Button Stylesheet}
+\subsection{My Button Component Home}
+\frametitle{My Button Component Home}
 \begin{lstlisting}
-/* In your CSS */
-.avatar {
-  border-radius: 50%;
-}
-
-export default function Home() {
-  return (
-  <>
-    <img className="avatar" src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"/>
-  </>
- );
-}
+    export default function Home() {
+        return (
+        <>
+        <div className={styles.main}>
+        <title>{"Zeak's Button Page"}</title>
+        <MyHeader/>
+        </div>
+        </>
+        );
+    }
 \end{lstlisting}
 \end{frame}
 

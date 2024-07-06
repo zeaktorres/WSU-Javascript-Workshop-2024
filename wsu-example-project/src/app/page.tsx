@@ -1,10 +1,23 @@
 import styles from "./page.module.css";
 
+function MyButton(): JSX.Element {
+    return ( 
+            <button>{"ZeakButton"}</button>
+           );
+}
+
+function MyHeader(): JSX.Element {
+    return (
+        <h1>{"Zeak's Page"}</h1>
+    );
+}
+
 export default function Home(){
-  return (
-    <>
-        <img src=
-        "https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg" alt="dog"/>
-    </>
-  );
+    return (
+        <div className={styles.main}>
+            <title>{"Zeak's Button Page"}</title>
+            <MyHeader/>
+            <MyButton/>
+        </div>
+    );
 }
