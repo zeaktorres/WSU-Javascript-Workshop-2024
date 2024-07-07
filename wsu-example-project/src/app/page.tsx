@@ -1,23 +1,17 @@
 import styles from "./page.module.css";
 
-function MyButton(): JSX.Element {
-    return ( 
-            <button>{"ZeakButton"}</button>
-           );
-}
-
-function MyHeader(): JSX.Element {
-    return (
-        <h1>{"Zeak's Page"}</h1>
-    );
+function sumNumbers(a: number[]) {
+    let sum: number = 0
+    for (let item of a){
+        sum += item
+    }
+    return sum
 }
 
 export default function Home(){
     return (
         <div className={styles.main}>
-            <title>{"Zeak's Button Page"}</title>
-            <MyHeader/>
-            <MyButton/>
+            {[5, 10, 15].reduce((sum, element) => {return sum + element}, 0)}
         </div>
     );
 }

@@ -1,16 +1,10 @@
-\subsection{My Button Stylesheet}
-\frametitle{My Button Stylesheet}
+\frametitle{Sum using reduce}
 \begin{lstlisting}
-/* In your CSS */
-.avatar {
-  border-radius: 50%;
-}
-
-export default function Home() {
-  return (
-  <>
-    <img className="avatar" src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"/>
-  </>
- );
+export default function Home(){
+    return (
+        <div className={styles.main}>
+            {[5, 10, 15].reduce((sum, element) => {return sum + element}, 0)}
+        </div>
+    );
 }
 \end{lstlisting}
