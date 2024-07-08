@@ -1,0 +1,101 @@
+\documentclass{beamer}
+\usepackage{listings}
+\begin{document}
+\title{Javascript Chapter 5: UseEffect and UseState}
+\author{Ezequiel Torres}
+\date{\today}
+\frame{\titlepage}
+\frame{\frametitle{Table of contents}\tableofcontents}
+
+\section{Use State}
+\frame{\frametitle{Use State}
+    When we want to store variables that can change with the application, we need to use useState
+}
+
+
+\fontsize{9pt}{10pt}\selectfont
+\subsection{Use State Counter Example imports}
+\begin{frame}[fragile]
+\frametitle{Use State Counter Example imports}
+\begin{lstlisting}
+// You'll need to add this at the top of your file, 
+// to let the page know you do not want to render it on
+// the server
+"use client";
+
+// You'll need to import in the useState and useEffect
+import { useState, useEffect } from 'react'
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Use State Counter Example}
+\begin{lstlisting}
+export default function Home(){
+    const [count, setCount] = useState(0)
+    ...
+}
+\end{lstlisting}
+\end{frame}
+
+
+\fontsize{6pt}{6pt}\selectfont
+\begin{frame}[fragile]
+\frametitle{Use State Counter Example}
+\begin{lstlisting}
+export default function Home(){
+    const [count, setCount] = useState(0)
+    return (
+        <div className={styles.main}>
+            <button onClick={() => setCount(count + 1)}>Increase Count</button>
+            {count}
+        </div>
+    );
+}
+\end{lstlisting}
+\end{frame}
+
+\fontsize{11pt}{11pt}\selectfont
+\section{Use Effect}
+\frame{\frametitle{Use Effect}
+    When we want to have a variable which reacts to the change, we can use useEffect 
+}
+
+\begin{frame}[fragile]
+\frametitle{Use Effect Counter Example}
+\begin{lstlisting}
+export default function Home(){
+    const [count, setCount] = useState(0)
+
+    useEffect(() => {
+        console.log(count);
+    }, [count]);
+    ...
+}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Use Effect Counter Example without variable capture}
+\begin{lstlisting}
+export default function Home(){
+    const [count, setCount] = useState(0)
+
+    useEffect(() => {
+        console.log(count);
+    });
+    ...
+}
+\end{lstlisting}
+\end{frame}
+
+\section{Use State Exercise}
+\frame{\frametitle{Use State Exercise}
+    Attempt to have a webpage which takes in the users miles driven and gallons used and calculates their mpg.
+    
+    \vspace{\baselineskip}
+    Hint: Use input html
+}
+
+
+\end{document}

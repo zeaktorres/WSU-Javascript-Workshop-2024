@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  7 JUL 2024 18:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  7 JUL 2024 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lecture4.tex
-(./lecture4.tex
+**lecture5.tex
+(./lecture5.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -711,8 +711,8 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 \l__pdf_internal_box=\box78
 )
-(./lecture4.aux)
-\openout1 = `lecture4.aux'.
+(./lecture5.aux)
+\openout1 = `lecture5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -791,9 +791,9 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 3.
 
-(./lecture4.out) (./lecture4.out)
+(./lecture5.out) (./lecture5.out)
 \@outlinefile=\write5
-\openout5 = `lecture4.out'.
+\openout5 = `lecture5.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 3.
@@ -863,39 +863,42 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count351
- (./lecture4.nav)
+ (./lecture5.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 5.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./lecture4.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./lecture5.toc)
 [2
 
 ] [3
 
-] [4
-
 ]
-\openout4 = `lecture4.vrb'.
+\openout4 = `lecture5.vrb'.
 
- (./lecture4.vrb
+ (./lecture5.vrb
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-4.
-LaTeX Font Info:    No file OMScmss.fd. on input line 4.
+9.
+LaTeX Font Info:    No file OMScmss.fd. on input line 9.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 4.
+(Font)              for symbol `textbraceleft' on input line 9.
 
-) [5
+) [4
 
 ]
-\openout4 = `lecture4.vrb'.
+\openout4 = `lecture5.vrb'.
 
- (./lecture4.vrb
+ (./lecture5.vrb) [5
+
+]
+\openout4 = `lecture5.vrb'.
+
+ (./lecture5.vrb
 LaTeX Font Info:    Trying to load font information for OML+cmss on input line 
 6.
 LaTeX Font Info:    No file OMLcmss.fd. on input line 6.
@@ -909,37 +912,29 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 
 ] [7
 
-] [8
+]
+\openout4 = `lecture5.vrb'.
+
+ (./lecture5.vrb) [8
 
 ]
-\openout4 = `lecture4.vrb'.
+\openout4 = `lecture5.vrb'.
 
- (./lecture4.vrb) [9
+ (./lecture5.vrb) [9
 
-]
-\openout4 = `lecture4.vrb'.
-
- (./lecture4.vrb) [10
-
-] [11
-
-]
-\openout4 = `lecture4.vrb'.
-
- (./lecture4.vrb)
-[12
+] [10
 
 ]
 \tf@nav=\write6
-\openout6 = `lecture4.nav'.
+\openout6 = `lecture5.nav'.
 
 \tf@toc=\write7
-\openout7 = `lecture4.toc'.
+\openout7 = `lecture5.toc'.
 
 \tf@snm=\write8
-\openout8 = `lecture4.snm'.
+\openout8 = `lecture5.snm'.
 
- (./lecture4.aux)
+ (./lecture5.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -948,17 +943,17 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `lecture4.out' has not changed.
-(rerunfilecheck)             Checksum: D03F382C6D946D14CEFFC00F561A66E3;1385.
+Package rerunfilecheck Info: File `lecture5.out' has not changed.
+(rerunfilecheck)             Checksum: 5062551AFE8846D36B75B269940106F1;560.
  ) 
 Here is how much of TeX's memory you used:
- 22751 strings out of 476182
- 424131 string characters out of 5795595
- 1938975 words of memory out of 5000000
- 44296 multiletter control sequences out of 15000+600000
+ 22722 strings out of 476182
+ 423792 string characters out of 5795595
+ 1943975 words of memory out of 5000000
+ 44276 multiletter control sequences out of 15000+600000
  561668 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 101i,14n,107p,404b,1343s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,14n,107p,404b,1298s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texli
@@ -968,10 +963,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy9.pfb>
-Output written on lecture4.pdf (12 pages, 109921 bytes).
+Output written on lecture5.pdf (10 pages, 107803 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 378 compressed objects within 4 object streams
- 34 named destinations out of 1000 (max. 500000)
- 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
