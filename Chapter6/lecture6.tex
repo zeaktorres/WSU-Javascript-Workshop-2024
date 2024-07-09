@@ -1,0 +1,76 @@
+\documentclass{beamer}
+\usepackage{listings}
+\begin{document}
+\title{Javascript Chapter 6: Component libraries: MUI}
+\author{Ezequiel Torres}
+\date{\today}
+\frame{\titlepage}
+\frame{\frametitle{Table of contents}\tableofcontents}
+
+\section{MUI}
+\frame{\frametitle{MUI}
+    When we want to have a customizable webpage with preloaded JSX elements, we can
+    use a component library like MUI
+}
+
+\subsection{MUI Install}
+\frame{\frametitle{MUI}
+    "npm install @mui/material @emotion/react @emotion/styled" run that command in your 
+    project folder
+}
+
+\section{MUI Examples}
+\frame{\frametitle{MUI Examples}
+    The best way to get started with a component library is using their examples
+}
+
+\section{MUI Button}
+\subsection{MUI Button import}
+\begin{frame}[fragile]
+\frametitle{MUI Button}
+\begin{lstlisting}
+    "use client"
+    import Button from '@mui/material/Button';
+    ...
+\end{lstlisting}
+\end{frame}
+
+\subsection{MUI Button import}
+\begin{frame}[fragile]
+\frametitle{MUI Button}
+\begin{lstlisting}
+    "use client"
+    import Button from '@mui/material/Button';
+    ...
+\end{lstlisting}
+\end{frame}
+
+\subsection{MUI Button import}
+\begin{frame}[fragile]
+\frametitle{MUI Button}
+\begin{lstlisting}
+    "use client"
+    import Button from '@mui/material/Button';
+    ...
+\end{lstlisting}
+\end{frame}
+
+\subsection{MUI Button Types}
+\begin{frame}[fragile]
+\frametitle{MUI Button Types}
+\begin{lstlisting}
+export default function Home(){
+    return (
+        <div className={styles.main}>
+            <Button variant="text">Text</Button>
+            <Button variant="contained">Contained</Button>
+            <Button variant="outlined">Outlined</Button>
+        </div>
+    );
+}
+\end{lstlisting}
+\end{frame}
+
+
+
+\end{document}
