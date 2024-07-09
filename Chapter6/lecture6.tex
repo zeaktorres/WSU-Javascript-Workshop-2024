@@ -10,7 +10,7 @@
 \section{MUI}
 \frame{\frametitle{MUI}
     When we want to have a customizable webpage with preloaded JSX elements, we can
-    use a component library like MUI
+    use a component library like MUI. REMEBER TO BRING YOUR RESUME PRINTED ON FRIDAY
 }
 
 \subsection{MUI Install}
@@ -70,6 +70,37 @@ export default function Home(){
 }
 \end{lstlisting}
 \end{frame}
+
+\subsection{MUI Button Types Centered}
+\begin{frame}[fragile]
+\frametitle{MUI Button Types Centered}
+\begin{lstlisting}
+export default function Home(){
+    return (
+        <div className={styles.main}>
+            <Button variant="text">Text</Button>
+            <Button variant="contained">Contained</Button>
+            <Button variant="outlined">Outlined</Button>
+        </div>
+    );
+}
+\end{lstlisting}
+\end{frame}
+
+\subsection{MUI Button Types Centered CSS}
+\begin{frame}[fragile]
+\frametitle{MUI Button Types Centered CSS}
+\begin{lstlisting}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh
+}
+\end{lstlisting}
+\end{frame}
+
 
 
 

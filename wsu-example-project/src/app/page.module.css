@@ -8,8 +8,8 @@
 }
 
 .main {
-    display: flex-start;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 6rem;
     min-height: 100vh
