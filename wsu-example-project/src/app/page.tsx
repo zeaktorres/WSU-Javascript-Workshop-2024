@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-
+import Image from "next/image"
 
 export default function Home(){
     return (
@@ -17,6 +17,13 @@ export default function Home(){
                     <Button color="inherit">Post</Button>
                 </Toolbar>
             </AppBar>
+            <Image 
+                src="/photos/dog_photo.jpg"
+                width={500}
+                height={400}
+                alt="Dog photo"
+            >
+            </Image>
         </div>
     );
 }
