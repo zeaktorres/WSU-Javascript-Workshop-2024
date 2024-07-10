@@ -18,7 +18,7 @@ export default function Home(){
                 </Toolbar>
             </AppBar>
             <Image 
-                src="/photos/dog_photo.jpg"
+                src={process.env.FILE_LOCATION + "photos/dog_photo.jpg"}
                 width={500}
                 height={400}
                 alt="Dog photo"
