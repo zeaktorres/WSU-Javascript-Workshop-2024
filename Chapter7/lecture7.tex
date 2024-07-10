@@ -7,10 +7,32 @@
 \frame{\titlepage}
 \frame{\frametitle{Table of contents}\tableofcontents}
 
-\section{MUI}
-\frame{\frametitle{MUI}
-    When we want to have a customizable webpage with preloaded JSX elements, we can
-    use a component library like MUI. REMEBER TO BRING YOUR RESUME PRINTED ON FRIDAY
+\section{Next JS Export}
+\frame{\frametitle{Next JS Export}
+    Inside of next js, we can export a static html file.
 }
 
+\subsection{Next JS Export Config}
+\begin{frame}[fragile]
+\frametitle{MUI Bar CSS}
+\begin{lstlisting}
+/** Inside of next.config.mjs */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output: 'export',
+    images: {
+        unoptimized: true,
+    },
+    assetPrefix: process.env.ASSET_PREFIX,
+    basePath: "/wsu-example-project/public" + process.env.BASE_PATH,
+};
+
+export default nextConfig;
+\end{lstlisting}
+\end{frame}
+
+\subsection{Next JS Export Location}
+\frame{\frametitle{Next JS Export Location}
+    Now we should see an export inside of out/
+}
 \end{document}
