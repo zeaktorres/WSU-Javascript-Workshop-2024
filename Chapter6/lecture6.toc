@@ -3,11 +3,9 @@
 \beamer@sectionintoc {2}{MUI Examples}{5}{0}{2}
 \beamer@sectionintoc {3}{MUI Button}{6}{0}{3}
 \beamer@subsectionintoc {3}{1}{MUI Button import}{6}{0}{3}
-\beamer@subsectionintoc {3}{2}{MUI Button import}{7}{0}{3}
-\beamer@subsectionintoc {3}{3}{MUI Button import}{8}{0}{3}
-\beamer@subsectionintoc {3}{4}{MUI Button Types}{9}{0}{3}
-\beamer@subsectionintoc {3}{5}{MUI Button Types Centered}{10}{0}{3}
-\beamer@subsectionintoc {3}{6}{MUI Button Types Centered CSS}{11}{0}{3}
-\beamer@subsectionintoc {3}{7}{MUI Bar}{12}{0}{3}
-\beamer@subsectionintoc {3}{8}{MUI Bar CSS}{13}{0}{3}
-\beamer@sectionintoc {4}{MUI Dialog Box}{14}{0}{4}
+\beamer@subsectionintoc {3}{2}{MUI Button Types}{7}{0}{3}
+\beamer@subsectionintoc {3}{3}{MUI Button Types Centered}{8}{0}{3}
+\beamer@subsectionintoc {3}{4}{MUI Button Types Centered CSS}{9}{0}{3}
+\beamer@subsectionintoc {3}{5}{MUI Bar}{10}{0}{3}
+\beamer@subsectionintoc {3}{6}{MUI Bar CSS}{11}{0}{3}
+\beamer@sectionintoc {4}{MUI Dialog Box}{12}{0}{4}
