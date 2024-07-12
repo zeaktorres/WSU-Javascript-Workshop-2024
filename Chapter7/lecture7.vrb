@@ -1,0 +1,15 @@
+\frametitle{MUI Bar CSS}
+\begin{lstlisting}
+/** Inside of next.config.mjs */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output: 'export',
+    images: {
+        unoptimized: true,
+    },
+    assetPrefix: process.env.ASSET_PREFIX,
+    basePath: "/wsu-example-project/public" + process.env.BASE_PATH,
+};
+
+export default nextConfig;
+\end{lstlisting}

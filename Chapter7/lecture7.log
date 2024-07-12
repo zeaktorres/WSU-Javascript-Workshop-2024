@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  9 JUL 2024 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  10 JUL 2024 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -711,7 +711,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 \l__pdf_internal_box=\box78
 )
-No file lecture7.aux.
+(./lecture7.aux)
 \openout1 = `lecture7.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -732,6 +732,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -789,6 +790,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 3.
+
+(./lecture7.out) (./lecture7.out)
 \@outlinefile=\write5
 \openout5 = `lecture7.out'.
 
@@ -860,19 +863,45 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count351
-
-No file lecture7.nav.
+ (./lecture7.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 5.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-No file lecture7.toc.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./lecture7.toc)
 [2
 
 ] [3
+
+]
+\openout4 = `lecture7.vrb'.
+
+ (./lecture7.vrb
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
+4.
+LaTeX Font Info:    No file OMScmss.fd. on input line 4.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 4.
+
+
+Overfull \hbox (139.47478pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [4
+
+] [5
 
 ]
 \tf@nav=\write6
@@ -891,28 +920,27 @@ L3 programming layer <2024-01-22>
  ***********
 
 
-Package rerunfilecheck Warning: File `lecture7.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: Checksums for `lecture7.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  6ABCA3CDD5DBC31EC6D1CA4D7B5A3FF2;58.
+Package rerunfilecheck Info: File `lecture7.out' has not changed.
+(rerunfilecheck)             Checksum: 821F6E3D8571A7FE1B1D396F138291D0;471.
  ) 
 Here is how much of TeX's memory you used:
- 22323 strings out of 476182
- 419826 string characters out of 5795595
- 1930975 words of memory out of 5000000
- 43919 multiletter control sequences out of 15000+600000
- 559881 words of font info for 42 fonts, out of 8000000 for 9000
+ 22689 strings out of 476182
+ 424020 string characters out of 5795595
+ 1946975 words of memory out of 5000000
+ 44262 multiletter control sequences out of 15000+600000
+ 560483 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 101i,14n,107p,404b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-Output written on lecture7.pdf (3 pages, 29659 bytes).
+ 101i,14n,107p,404b,1294s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/zeak/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on lecture7.pdf (5 pages, 44230 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 14 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
