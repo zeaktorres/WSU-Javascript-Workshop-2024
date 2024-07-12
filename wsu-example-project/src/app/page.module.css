@@ -8,14 +8,14 @@
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .avatar {
-    display: flex;
+  display: flex;
 }
 
 .description {
@@ -62,7 +62,9 @@
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
+  transition:
+    background 200ms,
+    border 200ms;
 }
 
 .card span {
